@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.gold-text {
+  background-image: repeating-linear-gradient(
+    to right,
+    #a2682a 0%,
+    #be8c3c 8%,
+    #be8c3c 18%,
+    #d3b15f 27%,
+    #d3b15f 58%,
+    #be8c3c 67%,
+    #b17b32 77%,
+    #bb8332 83%,
+    #d4a245 88%,
+    #e1b453 93%,
+    #a4692a 100%
+  );
+  background-size: 150%;
+  color: transparent;
+  background-clip: text;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#root,
+body,
+html {
+  background-color: #f2f0ef;
+  scroll-behavior: smooth;
+}
